@@ -4,7 +4,7 @@ pipeline{
         credentialsIdGCP = "exec-cohort-6"
         namespace = "lbg-2"
         // e.g. lbg-1 for learner1, lbg-2 for learner2
-        projectId= "exec-cohort-6"
+        projectId= "f79da764-3339-4c0c-8f2f-9e8bf2a02a59"
         
         imageName = "vatcalc"
         registry = "${dockerUserName}/${imageName}"
